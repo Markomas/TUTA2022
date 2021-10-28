@@ -17,6 +17,7 @@ What wiki says:
 **Git** is a ****distributed** version-control** system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files. Its goals include speed, data integrity, and support for distributed, **non-linear workflows**.
 
 **Version-control** - How we do version control: ![enter image description here](https://i.ibb.co/4PMH3YV/Screenshot-2.png)
+
 How git version control looks like:
 ![enter image description here](https://user-images.githubusercontent.com/18033666/40845217-0a1ec660-6584-11e8-8e74-37a68fae953b.png)
 
