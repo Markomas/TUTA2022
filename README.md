@@ -33,7 +33,7 @@ How git version control looks like:
 ![enter image description here](https://i.ibb.co/Ky9Mcxt/Untitled-Diagram.png)
 
 
-## Create first local repository (individual work starts here)
+## Create first local repository
 First let's create new project directory and open git bash in project directory
 
 ![enter image description here](https://i.ibb.co/NWkZFgV/Screenshot-1.png)
