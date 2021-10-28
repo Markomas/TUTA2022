@@ -107,7 +107,7 @@ First let see what GitHub tells us:
 
 From this page we see that my git repository is at address: 
 
-    https://github.com/Markomas/tutapro.git
+    https://github.com/Markomas/tuta.git
 And if we want to push an existing repository (which we created while doing "Create local repository"), we need to run these commands:
 
     git remote add origin {your repository}
@@ -115,7 +115,7 @@ And if we want to push an existing repository (which we created while doing "Cre
 
 > Change {your repository} to your repository URL
  
-> `git push -u origin master` origin - default remote repository in our case it's https://github.com/Markomas/tutapro.git. master is branch to which we are pushing changes. If remote branch doesn't exits it will be created automagically
+> `git push -u origin master` origin - default remote repository in our case it's https://github.com/Markomas/tuta.git. master is branch to which we are pushing changes. If remote branch doesn't exits it will be created automagically
 
 While running "git push -u origin master" we should get GitHub login page:
 
