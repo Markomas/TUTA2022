@@ -235,8 +235,8 @@ And to confirm that we can open our GitHub page and we will see in our `master` 
 
 ![enter image description here](https://i.ibb.co/W2y3jT2/Screenshot-31.png)
 
-## Merge conflicts
-Small task for you:
+## Merge conflicts (optional)
+Small task:
 
  1. Create new branch named as `feature/adding-fourth-file` and switch to it
  2. Create new file in your local computer which is named as `fourth.php` with text:
