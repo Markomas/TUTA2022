@@ -8,10 +8,10 @@
  5. Push/Save and Pull/Download changes from GitHub
  6. Create first branch and work with it
  7. Merge branches
- 8. Merge conflicts
+ 8. Merge conflicts (optional)
 
 
-## Intro to GIT
+## 1. Intro to GIT
 
 What wiki says: 
 **Git** is a ****distributed** version-control** system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files. Its goals include speed, data integrity, and support for distributed, **non-linear workflows**.
@@ -33,8 +33,7 @@ How git version control looks like:
 ![enter image description here](https://i.ibb.co/Ky9Mcxt/Untitled-Diagram.png)
 
 
-## Create first local repository
-First let's create new project directory and open git bash in project directory
+## 2. Create first local repository
 
 ![enter image description here](https://i.ibb.co/NWkZFgV/Screenshot-1.png)
 
@@ -60,7 +59,7 @@ We should see:
 And that's it we created local repository:)
 
 
-## Create first commit
+## 3. Create first commit
 First let's add demo.php file to that repository which contains:
 
     <?php
@@ -83,7 +82,7 @@ Now we can commit all staging files to local repository:
    ![enter image description here](https://i.ibb.co/xLqjkTZ/Screenshot-8.png)
    
 
-## Create GitHub repository
+## 4. Create GitHub repository
 Register to https://github.com/
 
 After logging in to your GitHub dashboard press "New"
@@ -99,7 +98,7 @@ Great, now we have our remote GitHub repository:
 ![enter image description here](https://i.ibb.co/xCLzVzC/Screenshot-12.png)
 
 
-## Push/Save and Pull/Download changes from GitHub
+## 5. Push/Save and Pull/Download changes from GitHub
 
 First let see what GitHub tells us:
 
@@ -157,7 +156,7 @@ Well it's easy we need just to download that remote repository to our local comp
 > `git fetch` - updates remote branch list (we will talk about branches in section "Create first branch and work with it")
 > `git pull` - downloads remote changes to current branch
 
-## Create first branch and work with it
+## 6. Create first branch and work with it
 Well what is branch?
 
 ![enter image description here](https://i.ibb.co/F7m43PC/Untitled.png)
@@ -218,7 +217,8 @@ And entering it we will see our new file is created in that branch:
 > git add .
 > git commit -m "Adding third file"
 > git push origin feature/adding-third-file
-## Merge branches
+
+## 7. Merge branches
 
 Now we know how to create branches, but how do we merge these branches to `master`? 
 We could use command: `git merge {branch}` it merges branch  named as {branch} to current active branch.
@@ -235,7 +235,8 @@ And to confirm that we can open our GitHub page and we will see in our `master` 
 
 ![enter image description here](https://i.ibb.co/W2y3jT2/Screenshot-31.png)
 
-## Merge conflicts (optional)
+## 8. Merge conflicts (optional)
+
 Small task:
 
  1. Create new branch named as `feature/adding-fourth-file` and switch to it
